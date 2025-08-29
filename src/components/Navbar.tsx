@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from '../assets/logo.png'
 import { MenuIcon, User } from 'lucide-react';
 import { motion } from 'motion/react';

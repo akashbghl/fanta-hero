@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import fanta1 from '../assets/fanta1.png'
 import fanta2 from '../assets/fanta2.png'
 import fanta3 from '../assets/fanta3.png'
@@ -6,7 +6,6 @@ import Navbar from './Navbar'
 import { motion, AnimatePresence, easeInOut } from 'motion/react'
 import { FaWhatsapp } from 'react-icons/fa'
 import { UpdateFollower } from 'react-mouse-follower'
-import { div } from 'motion/react-client'
 
 const Hero = () => {
     const slideRight = (delay: number) => {
